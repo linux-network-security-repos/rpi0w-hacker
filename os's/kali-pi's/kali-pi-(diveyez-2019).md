@@ -227,8 +227,10 @@ SSH server must be available and running on the Raspberry Pi. The Raspberry Pi w
 I used Xubuntu as the client OS but any other are possible provided they support SSH tunneling and you can install a VNC client.
 
 ```
-apt-get install tightvncserver
+apt-get install tightvncserver xfonts-base
+```
 Install Autocutsel package to enable cut&paste between client and server:
+```
 apt-get install autocutsel
 ```
 
