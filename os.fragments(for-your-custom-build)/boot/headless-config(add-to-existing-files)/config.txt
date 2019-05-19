@@ -1,0 +1,11 @@
+#Overclocking and USB Power/Ethernet for HEADLESS Configuration
+dtoverlay=dwc2
+arm_freq=1000
+core_freq=500
+sdram_freq=400
+over_voltage=0
+over_voltage_sdram_p=0
+over_voltage_sdram_i=0
+over_voltage_sdram_c=0
+max_usb_current=1
+safe_mode_gpio=4
